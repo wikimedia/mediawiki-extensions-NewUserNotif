@@ -454,6 +454,15 @@ $messages['lb'] = array(
 En neie Benotzerkont, $2, gouf op $3 de(n) $4 opgemaach.',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'newusernotifbody' => 'E khai ṭhian duh tak  $1,
+
+Hmangtu siangchan thar, $2,  $3 phêkah  $4 khan siam a ni tâ. Kan lawm takzet a che. Kan ram leh hnam tana i hna thawh a thlàwn lo vang.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -508,6 +517,15 @@ $messages['nah'] = array(
 Cē yancuīc tlatequitiltilīlli cuentah, $2, ōmochīuh īpan $3 īpan $4.',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'newusernotifsubj' => 'Beskjed om ny bruker for $1',
+	'newusernotif-desc' => 'Sender beskjed på e-post når kontoer opprettes',
+	'newusernotifbody' => 'Hei, $1. En ny brukerkonto, $2, ble opprettet på $3 $4.',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -529,15 +547,6 @@ $messages['nn'] = array(
 	'newusernotifbody' => 'Hei, $1. 
 
 Ein ny brukarkonto, $2, blei oppretta på $3 $4.',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'newusernotifsubj' => 'Beskjed om ny bruker for $1',
-	'newusernotif-desc' => 'Sender beskjed på e-post når kontoer opprettes',
-	'newusernotifbody' => 'Hei, $1. En ny brukerkonto, $2, ble opprettet på $3 $4.',
 );
 
 /** Occitan (Occitan)
