@@ -390,10 +390,11 @@ Un nuovo account, $2, è stato creato su $3 il $4.',
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author JtFuruhata
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'newusernotifsubj' => '$1 利用者アカウント作成通知',
-	'newusernotif-desc' => '利用者アカウントが作成されたときに電子メール通知を送る',
+	'newusernotif-desc' => '利用者アカウントが作成されたときにメール通知を送る',
 	'newusernotifbody' => 'ようこそ$1さん、
 
 $4、$3上に$2で利用者アカウントを作成しました。',
