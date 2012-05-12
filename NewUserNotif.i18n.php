@@ -541,6 +541,7 @@ Er is een nieuwe gebruiker $2 aangemaakt op $3 op $5 om $6.',
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'newusernotifsubj' => 'Melding om ny brukar for $1',
@@ -752,7 +753,7 @@ $messages['tg-cyrl'] = array(
 Ҳисоби корбарии ҷадид, $2, дар $3 дар $4 эҷод шуд.',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
