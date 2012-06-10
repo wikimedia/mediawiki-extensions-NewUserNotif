@@ -809,11 +809,12 @@ Un novo account utente, $2, el xe stà creà su $3 in data $4.',
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  */
 $messages['vi'] = array(
 	'newusernotifsubj' => 'Thông báo thành viên mới cho $1',
-	'newusernotif-desc' => 'Gửi thông báo bằng e-mail khi có tài khoản thành viên được tạo',
+	'newusernotif-desc' => 'Gửi thông báo bằng thư điện tử khi có tài khoản thành viên được tạo',
 	'newusernotifbody' => 'Xin chào $1,
 
 Một tài khoản thành viên mới, $2, đã được tạo ra trên $3 lúc $4.',
