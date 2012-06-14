@@ -70,7 +70,7 @@ $messages['arz'] = array(
 حساب يوزر  جديد، $2، إتفتح على $3 فى $4.',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -124,7 +124,7 @@ $messages['be-tarask'] = array(
 Новы рахунак, $2, быў створаны $3 $4.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -135,7 +135,7 @@ $messages['bg'] = array(
 В $3 беше регистрирана нова потребителска сметка, $2, на $4.',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -146,7 +146,7 @@ $messages['br'] = array(
 Ur gont implijer nevez, $2, zo bet krouet war $3 da $4.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -213,7 +213,7 @@ $messages['eo'] = array(
 Nova konto por uzanto, $2, estis kreita je $3 $4.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
@@ -224,7 +224,7 @@ $messages['es'] = array(
 Ha sido creada una nueva cuenta de usuario, $2, en $3 a las $4',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -236,7 +236,7 @@ Võrgukohas $3 loodi uus kasutajakonto $2.
 Konto loomise aeg: $4',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Jaakonam
  * @author Nike
  */
@@ -248,7 +248,7 @@ $messages['fi'] = array(
 Uusi käyttäjätunnus $2 on luotu $3 $4.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  */
 $messages['fr'] = array(
@@ -259,7 +259,7 @@ $messages['fr'] = array(
 Un nouveau compte utilisateur, $2, a été créé sur $3 le $4.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -332,7 +332,7 @@ $messages['hsb'] = array(
 Nowe wužiwarske konto, $2, bu dnja $4 na $3 wutworjene.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Tgr
  */
@@ -354,7 +354,7 @@ $messages['hy'] = array(
 $3 կայքում ստեղծվել է նոր մասնակցային հաշիվ՝ $2, $4-ին։',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -376,7 +376,7 @@ $messages['id'] = array(
 Sebuah akun pengguna baru, $2, telah dibuat di $3 pada $4.',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -464,7 +464,7 @@ $messages['lus'] = array(
 Hmangtu siangchan thar, $2,  $3 phêkah  $4 khan siam a ni tâ. Kan lawm takzet a che. Kan ram leh hnam tana i hna thawh a thlàwn lo vang.',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -539,7 +539,7 @@ $messages['nl'] = array(
 Er is een nieuwe gebruiker $2 aangemaakt op $3 op $5 om $6.',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -551,7 +551,7 @@ $messages['nn'] = array(
 Ein ny brukarkonto, $2, blei oppretta på $3 $4.',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -569,7 +569,7 @@ $messages['pdc'] = array(
 uff $3 iss am $5, $6 Uhr en neier Yuuser, $2, komme.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Sp5uhe
  */
@@ -599,7 +599,7 @@ $messages['ps'] = array(
 د $2 په نوم يو نوی ګڼون په $4 نېټه $3 کې جوړ شوی.',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  */
@@ -611,7 +611,7 @@ $messages['pt'] = array(
 Uma nova conta de utilizador, $2, foi criada em $3 em $4.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Carla404
  * @author Eduardo.mps
  */
@@ -623,7 +623,7 @@ $messages['pt-br'] = array(
 Uma nova conta de utilizador, $2, foi criada em $3 em $4.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Stelistcristi
  */
 $messages['ro'] = array(
@@ -632,7 +632,7 @@ $messages['ro'] = array(
 Un nou cont de utilizator, $2, a fost creat pe $3 la $4.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -643,7 +643,7 @@ $messages['roa-tara'] = array(
 'Nu cunde utende nuève, $2, ha state ccrejate sus a $3 'u $4.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -654,7 +654,7 @@ $messages['ru'] = array(
 В проекте $3 в $4 была создана новая учётная запись — $2.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -665,7 +665,7 @@ $messages['sk'] = array(
 $3 na $4 bol vytvorený nový používateľský účet $2.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -677,7 +677,7 @@ $messages['sr-ec'] = array(
 Нови кориснички налог, $2, је направљен на $3 у $4.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -708,7 +708,7 @@ $messages['su'] = array(
 Aya pamaké anyar, $2, geus dijieun dina $3 , $4',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -731,7 +731,7 @@ $messages['te'] = array(
 $3లో $2 అనే కొత్త వాడుకరి ఖాతాని $4కి సృష్టించాం.',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -742,7 +742,7 @@ $messages['tet'] = array(
 uza-na'in foun ida, $2, naregistrar tiha iha $3 iha loron $4.",
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -753,7 +753,7 @@ $messages['tg-cyrl'] = array(
 Ҳисоби корбарии ҷадид, $2, дар $3 дар $4 эҷод шуд.',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -787,7 +787,7 @@ $messages['tr'] = array(
 Yeni kullanıcı hesabı, $2,$3 üzerinde $4'te oluşturuldu.",
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Alex Khimich
  */
 $messages['uk'] = array(
@@ -797,7 +797,7 @@ $messages['uk'] = array(
 В проекті $3 в $4 був створений обліковий запис — $2.',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -839,7 +839,7 @@ $messages['yue'] = array(
 一個新嘅用戶戶口$2，已經響$4喺$3度開咗。',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gaoxuewei
  * @author Xiaomingyan
  */
@@ -851,7 +851,7 @@ $messages['zh-hans'] = array(
 一个新账户$2已于$4在$3创建。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  */
