@@ -112,7 +112,7 @@ $messages['bar'] = array(
 Am $5 is um $6 auf $3 a neichs Benutzakonto ãnglegt woan: $2.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -180,7 +180,7 @@ $messages['de'] = array(
 Ein neues Benutzerkonto, $2, wurde am $5, $6 Uhr auf $3 angelegt.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -275,7 +275,7 @@ $messages['ga'] = array(
 Tá cuntas úsáideora nua, $2, cruthaigh ar $3, $4.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  */
@@ -321,7 +321,7 @@ $messages['hi'] = array(
 $3 पर एक नया सदस्य, $2, $4 को पंजिकृत हुआ हैं।',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
