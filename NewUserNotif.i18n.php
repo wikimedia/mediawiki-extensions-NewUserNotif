@@ -91,7 +91,7 @@ $messages['avk'] = array(
 $2 warzafa favesikpata su zo redur koe $3 ko $4.',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -518,9 +518,7 @@ $messages['nah'] = array(
 Cē yancuīc tlatequitiltilīlli cuentah, $2, ōmochīuh īpan $3 īpan $4.',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'newusernotifsubj' => 'Beskjed om ny bruker for $1',
 	'newusernotif-desc' => 'Sender beskjed på e-post når kontoer opprettes',
