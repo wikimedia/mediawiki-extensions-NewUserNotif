@@ -652,6 +652,13 @@ $messages['ru'] = array(
 В проекте $3 в $4 была создана новая учётная запись — $2.',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'newusernotifsubj' => '$1 සඳහා නව පරිශීලක නිවේදනයක්',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
