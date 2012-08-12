@@ -724,6 +724,17 @@ $messages['sv'] = array(
 Ett nytt användar konto, $2, har skapats på $3 som $4.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'newusernotifsubj' => '$1க்கு புதிய பயனர் அறிவிப்புகள்',
+	'newusernotif-desc' => 'பயனர் கணக்குகள் உருவாக்கப்பட்டால் மின்னஞ்சல் அறிவிப்புகள் அனுப்பும்',
+	'newusernotifbody' => 'வணக்கம் $1,
+
+ஒரு புதிய பயனர் கணக்கு, $2,$3 அன்று $4க்கு உருவாக்கப்பட்டது.',
+);
+
 /** Telugu (తెలుగు)
  * @author Ravichandra
  * @author Veeven
