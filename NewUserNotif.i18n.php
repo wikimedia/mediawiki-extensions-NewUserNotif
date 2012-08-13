@@ -411,6 +411,17 @@ $messages['jv'] = array(
 Sawijining rékening panganggo, $2, wis digawé ing $3 jam $4.',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'newusernotifsubj' => 'შეყობინება ახალი მომხმარებელი $1 შესახებ',
+	'newusernotif-desc' => 'შეტყობინების გაგზავნა ელ. ფოსტით, როდესაც ახალი მომხმარებელი რეგისტრირდება',
+	'newusernotifbody' => 'გამარჯობა, $1.
+
+პროექტში $3 $4-ში შეიქმნა ახალი მომხმარებლის ანგარიში — $2.',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author គីមស៊្រុន
