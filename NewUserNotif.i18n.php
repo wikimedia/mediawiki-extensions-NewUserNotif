@@ -433,6 +433,17 @@ $messages['km'] = array(
 គណនី​របស់​អ្នកប្រើប្រាស់ថ្មី, $2, បានត្រូវបង្កើត លើ $3 នៅ $4 ហើយ ។',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'newusernotifsubj' => '$1 사용자에 대한 새 사용자 알림',
+	'newusernotif-desc' => '사용자 계정을 만들 때 이메일 알림 보내기',
+	'newusernotifbody' => '$1 안녕하세요,
+
+$4에 $3에서 $2로 새 사용자 계정을 만들었습니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
