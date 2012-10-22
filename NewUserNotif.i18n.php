@@ -529,7 +529,8 @@ $messages['nah'] = array(
 Cē yancuīc tlatequitiltilīlli cuentah, $2, ōmochīuh īpan $3 īpan $4.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'newusernotifsubj' => 'Beskjed om ny bruker for $1',
 	'newusernotif-desc' => 'Sender beskjed på e-post når kontoer opprettes',
@@ -858,7 +859,8 @@ $messages['vo'] = array(
 Gebanakal nulik: $2, pejafon su $3 tü $4.',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'newusernotifsubj' => '$1嘅新用戶通知',
 	'newusernotifbody' => '你好 $1，
@@ -889,4 +891,3 @@ $messages['zh-hant'] = array(
 
 一個新的用戶帳號 $2，已經在 $4 於 $3 建立。',
 );
-
