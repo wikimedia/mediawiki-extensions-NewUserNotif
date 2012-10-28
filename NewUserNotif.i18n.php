@@ -477,7 +477,7 @@ $messages['lb'] = array(
 En neie Benotzerkont, $2, gouf op $3 de(n) $4 opgemaach.',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
