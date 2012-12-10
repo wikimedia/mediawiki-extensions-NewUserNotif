@@ -26,8 +26,8 @@ A new user account, $2, has been created on $3 at $4.", # optional: $5 date, $6 
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'newusernotifsubj' => 'This message contains the subject line for the email.
-$1 is replaced with the wiki site name.',
+	'newusernotifsubj' => 'This message contains the subject line for the email. Parameters:
+* $1 is replaced with the wiki site name.',
 	'newusernotif-desc' => '{{desc}}',
 	'newusernotifbody' => "This file contains the body text for the e-mail.
 * $1 is replaced with the username of the recipient;
