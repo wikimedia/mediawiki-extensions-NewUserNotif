@@ -157,6 +157,15 @@ $messages['bs'] = array(
 Novi korisnički račun, $2, je napravljen na $3 u $4.',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'newusernotifbody' => 'Dobrý den $1,
+
+Nový uživatelský účet, $2, byl vytvořen na $3 v $4.',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
@@ -264,6 +273,10 @@ Un nouveau compte utilisateur, $2, a été créé sur $3 le $4.',
  */
 $messages['frp'] = array(
 	'newusernotifsubj' => 'Notificacion a un novél usanciér por $1',
+	'newusernotif-desc' => 'Mande na notificacion per mèssageria èlèctronica quand los comptos utilisators sont fêts',
+	'newusernotifbody' => 'Bonjorn $1,
+
+un compto utilisator novél, $2, est étâ fêt dessus $3 lo $4.',
 );
 
 /** Irish (Gaeilge)
