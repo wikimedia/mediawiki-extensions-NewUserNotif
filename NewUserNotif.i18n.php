@@ -649,13 +649,14 @@ Uma nova conta de utilizador, $2, foi criada em $3 em $4.',
 /** Brazilian Portuguese (português do Brasil)
  * @author Carla404
  * @author Eduardo.mps
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'newusernotifsubj' => 'Notificação de novo usuário para $1',
 	'newusernotif-desc' => 'Envia uma notificação por e-mail quando uma conta de utilizador é criada',
 	'newusernotifbody' => 'Olá, $1,
 
-Uma nova conta de utilizador, $2, foi criada em $3 em $4.',
+Uma nova conta de usuário, $2, foi criada em $3 em $4.',
 );
 
 /** Romanian (română)
