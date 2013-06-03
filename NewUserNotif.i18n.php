@@ -554,7 +554,7 @@ $messages['nah'] = array(
 Cē yancuīc tlatequitiltilīlli cuentah, $2, ōmochīuh īpan $3 īpan $4.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'newusernotifsubj' => 'Beskjed om ny bruker for $1',
@@ -574,7 +574,7 @@ $messages['nl'] = array(
 Er is een nieuwe gebruiker $2 aangemaakt op $3 op $5 om $6.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
