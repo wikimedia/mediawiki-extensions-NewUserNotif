@@ -660,9 +660,12 @@ Uma nova conta de usuário, $2, foi criada em $3 em $4.',
 );
 
 /** Romanian (română)
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'newusernotifsubj' => 'Notificare despre un utilizator nou pentru $1',
+	'newusernotif-desc' => 'Trimite notificări prin e-mail atunci când sunt create conturi de utilizator',
 	'newusernotifbody' => 'Salut $1,
 
 Un nou cont de utilizator, $2, a fost creat pe $3 la $4.',
