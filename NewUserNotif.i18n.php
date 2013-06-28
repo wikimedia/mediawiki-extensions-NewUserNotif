@@ -40,12 +40,13 @@ $messages['qqq'] = array(
 );
 
 /** Old English (Ænglisc)
+ * @author Gott wisst
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
 	'newusernotifbody' => 'Ēalā $1,
 
-Nīƿe brūcendȝerād, $2, ƿæs on $3 macod, on $4.',
+Nīwe brūcendreccing, $2, wæs on $3 gemacod, on $4.',
 );
 
 /** Arabic (العربية)
