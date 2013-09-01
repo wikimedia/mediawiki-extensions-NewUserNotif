@@ -30,13 +30,13 @@ $messages['qqq'] = array(
 	'newusernotifsubj' => 'This message contains the subject line for the email. Parameters:
 * $1 is replaced with the wiki site name.',
 	'newusernotif-desc' => '{{desc|name=New User Notification|url=http://www.mediawiki.org/wiki/Extension:New_User_Email_Notification}}',
-	'newusernotifbody' => "This file contains the body text for the e-mail.
-* $1 is replaced with the username of the recipient;
-* $2 is replaced with the username of the new user account;
-* $3 is replaced with the wiki site;
-* $4 is replaced with the time and date of the account's creation.
-* $5 (optional) is replaced with the date of the account's creation.
-* $6 (optional) is replaced with the time of the account's creation.",
+	'newusernotifbody' => "This file contains the body text for the email. Parameters:
+* $1 - replaced with the username of the recipient
+* $2 - replaced with the username of the new user account
+* $3 - replaced with the wiki site
+* $4 - replaced with the time and date of the account's creation
+* $5 - (Optional) replaced with the date of the account's creation
+* $6 - (Optional) replaced with the time of the account's creation",
 );
 
 /** Old English (Ænglisc)
