@@ -159,6 +159,17 @@ $messages['bs'] = array(
 Novi korisnički račun, $2, je napravljen na $3 u $4.',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'newusernotifsubj' => 'Керла декъашхо $1 тӀе кхетта',
+	'newusernotif-desc' => 'Керла декъашхочун дӀаяздар кхоьллича баита хаам',
+	'newusernotifbody' => 'Маршалла, $1.
+
+Проектехь $3 $4 кхоьллина керла декъашхочун дӀаяздар — $2.',
+);
+
 /** Czech (česky)
  * @author Vks
  */
