@@ -292,6 +292,17 @@ $messages['frp'] = array(
 un compto utilisator novél, $2, est étâ fêt dessus $3 lo $4.',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'newusernotifsubj' => 'Bööd tu $1 auer det iinrachten faan en nei brükerkonto',
+	'newusernotif-desc' => 'Ferschüürt en e-mail, wan nei brükerkontos iinracht wurd',
+	'newusernotifbody' => 'Gud dai $1,
+
+En nei brükerkonto, $2, as di $5, am a klook $6 üüb $3 iinracht wurden.',
+);
+
 /** Irish (Gaeilge)
  * @author Alison
  */
