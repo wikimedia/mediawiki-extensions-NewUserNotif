@@ -170,7 +170,7 @@ $messages['ce'] = array(
 Проектехь $3 $4 кхоьллина керла декъашхочун дӀаяздар — $2.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
