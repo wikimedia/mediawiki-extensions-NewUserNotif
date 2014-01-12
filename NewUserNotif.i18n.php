@@ -258,6 +258,13 @@ Võrgukohas $3 loodi uus kasutajakonto $2.
 Konto loomise aeg: $4',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'newusernotifsubj' => 'اعلان کاربر جدید برای $1',
+);
+
 /** Finnish (suomi)
  * @author Jaakonam
  * @author Nike
