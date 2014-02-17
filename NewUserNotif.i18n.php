@@ -263,6 +263,10 @@ Konto loomise aeg: $4',
  */
 $messages['fa'] = array(
 	'newusernotifsubj' => 'اعلان کاربر جدید برای $1',
+	'newusernotif-desc' => 'فرستادن اعلان رایانامه هنگامی که حساب‌های کاربری ایجاد شده‌است',
+	'newusernotifbody' => 'سلام $1،
+
+یک حساب کاربری جدید، $2، بر $3 در $4 ایجاد شده‌است.',
 );
 
 /** Finnish (suomi)
