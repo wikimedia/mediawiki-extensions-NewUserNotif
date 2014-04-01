@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cedric31"
+        ]
+    },
+    "newusernotifsubj": "Notificacion d’un utilizaire novèl per $1",
+    "newusernotif-desc": "Manda una notificacion per corrièr electronic quand los comptes d'utilizaires son creats",
+    "newusernotifbody": "Adissiatz $1, Un compte novèl d'utilizaire, $2, es estat creat sus $3 lo $4."
+}

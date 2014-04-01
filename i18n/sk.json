@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Helix84"
+        ]
+    },
+    "newusernotifsubj": "Upozornenie na nových používateľov pre $1",
+    "newusernotif-desc": "Posiela upozornenia emailom pri vytvorení používateľských účtov",
+    "newusernotifbody": "Ahoj $1,\n\n$3 na $4 bol vytvorený nový používateľský účet $2."
+}

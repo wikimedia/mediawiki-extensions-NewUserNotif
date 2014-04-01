@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ahmed-Najib-Biabani-Ibrahimkhel"
+        ]
+    },
+    "newusernotifsubj": "د $1 لپاره د نوي کارن يادونه",
+    "newusernotifbody": "$1، سلامونه!\n\nد $2 په نوم يو نوی گڼون په $4 نېټه $3 کې جوړ شوی."
+}

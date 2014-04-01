@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras"
+        ]
+    },
+    "newusernotifsubj": "Notifiche de 'n'utende nuève pe $1",
+    "newusernotif-desc": "Manne 'na mail de notifiche quanne avènene ccrejate le cunde utende",
+    "newusernotifbody": "Cià $1,\n\n'Nu cunde utende nuève, $2, ha state ccrejate sus a $3 'u $4."
+}

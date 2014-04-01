@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Murma174"
+        ]
+    },
+    "newusernotifsubj": "Bööd tu $1 auer det iinrachten faan en nei brükerkonto",
+    "newusernotif-desc": "Ferschüürt en e-mail, wan nei brükerkontos iinracht wurd",
+    "newusernotifbody": "Gud dai $1,\n\nEn nei brükerkonto, $2, as di $5, am a klook $6 üüb $3 iinracht wurden."
+}

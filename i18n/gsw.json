@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Als-Holder"
+        ]
+    },
+    "newusernotifsubj": "Benochrichtung vu $1 iber e nej Benutzerskonto",
+    "newusernotif-desc": "Verschickt E-Mail-Benochrichtigunge bim Aalege vu neje Benutzerkonte",
+    "newusernotifbody": "Sali $1,\n\nE nej Benutzerkonto, $2, isch am $4 uf $3 aagleit wore."
+}

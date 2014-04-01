@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joseph",
+            "Srhat"
+        ]
+    },
+    "newusernotifsubj": "$1 için yeni kullanıcı bildirisi",
+    "newusernotif-desc": "Kullanıcı hesapları oluşturulduğunda e-posta bildirisi yolla",
+    "newusernotifbody": "Merhaba $1\n\nYeni kullanıcı hesabı, $2,$3 üzerinde $4'te oluşturuldu."
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "MF-Warburg"
+        ]
+    },
+    "newusernotifsubj": "Mensajen kona-ba uza-na'in foun ba $1",
+    "newusernotif-desc": "Haruka korreiu eletróniku bainhira kria konta uza-na'in",
+    "newusernotifbody": "Olá $1,\n\nuza-na'in foun ida, $2, naregistrar tiha iha $3 iha loron $4."
+}

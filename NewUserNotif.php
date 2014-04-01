@@ -15,14 +15,15 @@ if ( ! defined( 'MEDIAWIKI' ) )
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name'           => 'New User Email Notification',
-	'version'        => '1.5.2',
+	'version'        => '1.6.0',
 	'author'         => 'Rob Church',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:New_User_Email_Notification',
 	'descriptionmsg' => 'newusernotif-desc',
 );
 
 $dir = dirname(__FILE__) . '/';
-$wgExtensionMessagesFiles['NewUserNotifier'] = $dir . 'NewUserNotif.i18n.php';
+$wgMessagesDirs['NewUserNotif'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['NewUserNotif'] = $dir . 'NewUserNotif.i18n.php';
 $wgAutoloadClasses['NewUserNotifier'] = $dir . 'NewUserNotif.class.php';
 $wgExtensionFunctions[] = 'efNewUserNotifSetup';
 

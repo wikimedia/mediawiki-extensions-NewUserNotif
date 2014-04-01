@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jaakonam",
+            "Nike"
+        ]
+    },
+    "newusernotifsubj": "Tiedote sivuston uudelle käyttäjälle $1",
+    "newusernotif-desc": "Lähettää sähköpostiviestin, kun käyttäjätunnukset on luotu",
+    "newusernotifbody": "Tervehdys $1,\n\nUusi käyttäjätunnus $2 on luotu $3 $4."
+}

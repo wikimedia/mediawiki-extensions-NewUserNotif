@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "newusernotifsubj": "Notification de un nove usator in $1",
+    "newusernotif-desc": "Invia un notification per e-mail quando un conto de usator es create",
+    "newusernotifbody": "Salute $1,\n\nUn nove conto de usator, $2, ha essite create in $3 le $4."
+}

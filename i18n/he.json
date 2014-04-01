@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Rotemliss",
+            "YaronSh"
+        ]
+    },
+    "newusernotifsubj": "הודעת משתמש חדשה עבור $1",
+    "newusernotif-desc": "שליחת הודעה בדוא\"ל כאשר נוצרים חשבונות משתמש",
+    "newusernotifbody": "שלום $1,\n\nחשבון משתמש חדש, $2, נוצר באתר $3 ב־$4."
+}

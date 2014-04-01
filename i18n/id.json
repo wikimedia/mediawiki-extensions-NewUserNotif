@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bennylin"
+        ]
+    },
+    "newusernotifsubj": "Pemberitahuan pengguna baru untuk $1",
+    "newusernotif-desc": "Mengirimkan pemberitahuan lewat surel pada saat akun pengguna dibuat",
+    "newusernotifbody": "Halo $1,\n\nSebuah akun pengguna baru, $2, telah dibuat di $3 pada $4."
+}

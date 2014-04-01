@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "newusernotifsubj": "Powěźeńka na nowego wužywarja za $1",
+    "newusernotif-desc": "Sćelo e-mailowu powěźeńku, gaž se wužywarske konta napóraju",
+    "newusernotifbody": "Halo $1,\n\nKonto nowego wužywarja, $2, jo se załožyło $4 na $3 ."
+}

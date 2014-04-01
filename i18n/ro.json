@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Minisarm",
+            "Stelistcristi"
+        ]
+    },
+    "newusernotifsubj": "Notificare despre un utilizator nou pentru $1",
+    "newusernotif-desc": "Trimite notificări prin e-mail atunci când sunt create conturi de utilizator",
+    "newusernotifbody": "Salut $1,\n\nUn nou cont de utilizator, $2, a fost creat pe $3 la $4."
+}

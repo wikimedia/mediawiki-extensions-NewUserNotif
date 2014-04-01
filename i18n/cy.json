@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lloffiwr"
+        ]
+    },
+    "newusernotifsubj": "Hysbysiad am ddefnyddiwr newydd ar $1",
+    "newusernotif-desc": "Yn anfon e-bost yn hysbysu bod cyfrif defnyddiwr newydd wedi ei sefydlu",
+    "newusernotifbody": "Cyfarchion $1,\n\nMae cyfrif newydd o'r enw $2 wedi cael ei sefydlu ar $3 am $4."
+}

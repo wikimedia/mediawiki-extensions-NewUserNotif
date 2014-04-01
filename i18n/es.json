@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sanbec"
+        ]
+    },
+    "newusernotifsubj": "Notificación de un nuevo usuario en $1",
+    "newusernotif-desc": "Envía un aviso por correo electrónico cuando se crean cuentas de usuario",
+    "newusernotifbody": "Hola $1:\n\nHa sido creada una nueva cuenta de usuario, $2, en $3 a las $4"
+}

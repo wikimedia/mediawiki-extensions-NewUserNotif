@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Purodha",
+            "Raimond Spekking"
+        ]
+    },
+    "newusernotifsubj": "Benachrichtung von $1 über die Einrichtung eines neuen Benutzerskontos",
+    "newusernotif-desc": "Versendet E-Mail-Benachrichtigungen bei Erstellung neuer Benutzerkonten",
+    "newusernotifbody": "Hallo $1,\n\nEin neues Benutzerkonto, $2, wurde am $5, $6 Uhr auf $3 angelegt."
+}

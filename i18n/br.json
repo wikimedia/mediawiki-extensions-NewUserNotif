@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fulup"
+        ]
+    },
+    "newusernotifsubj": "Kemenn un implijer nevez evit $1",
+    "newusernotif-desc": "Kas ur c'hemenn dre bostel pa vez krouet kontoù implijer",
+    "newusernotifbody": "Salud $1,\n\nUr gont implijer nevez, $2, zo bet krouet war $3 da $4."
+}

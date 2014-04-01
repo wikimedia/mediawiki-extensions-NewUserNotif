@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": []
+    },
+    "newusernotifsubj": "Beskjed om ny bruker for $1",
+    "newusernotif-desc": "Sender beskjed på e-post når kontoer opprettes",
+    "newusernotifbody": "Hei, $1. En ny brukerkonto, $2, ble opprettet på $3 $4."
+}

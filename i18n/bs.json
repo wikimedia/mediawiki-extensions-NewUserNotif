@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "CERminator"
+        ]
+    },
+    "newusernotifsubj": "Obavještenje o novom korisniku na $1",
+    "newusernotif-desc": "Šalje obavještenje putem e-maila kada pri pravljenju novog korisničkog računa",
+    "newusernotifbody": "Zdravo $1,\n\nNovi korisnički račun, $2, je napravljen na $3 u $4."
+}
