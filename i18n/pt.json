@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu",
-            "Malafaya"
-        ]
-    },
-    "newusernotifsubj": "Nova Notificação de Utilizador para $1",
-    "newusernotif-desc": "Envia notificações por correio electrónico quando são criadas contas de utilizador",
-    "newusernotifbody": "Olá, $1,\n\nUma nova conta de utilizador, $2, foi criada em $3 em $4."
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya"
+		]
+	},
+	"newusernotifsubj": "Nova Notificação de Utilizador para $1",
+	"newusernotif-desc": "Envia notificações por correio electrónico quando são criadas contas de utilizador",
+	"newusernotifbody": "Olá, $1,\n\nUma nova conta de utilizador, $2, foi criada em $3 em $4."
 }

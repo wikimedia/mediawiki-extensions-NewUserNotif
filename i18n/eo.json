@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yekrats"
-        ]
-    },
-    "newusernotifsubj": "Nova notigado de uzanto $1",
-    "newusernotifbody": "Saluton $1,\n\nNova konto por uzanto, $2, estis kreita je $3 $4."
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"newusernotifsubj": "Nova notigado de uzanto $1",
+	"newusernotifbody": "Saluton $1,\n\nNova konto por uzanto, $2, estis kreita je $3 $4."
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vks"
-        ]
-    },
-    "newusernotifbody": "Dobrý den $1,\n\nNový uživatelský účet, $2, byl vytvořen na $3 v $4."
+	"@metadata": {
+		"authors": [
+			"Vks"
+		]
+	},
+	"newusernotifbody": "Dobrý den $1,\n\nNový uživatelský účet, $2, byl vytvořen na $3 v $4."
 }

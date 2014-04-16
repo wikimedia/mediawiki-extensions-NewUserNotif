@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Harald Khan",
-            "Njardarlogar"
-        ]
-    },
-    "newusernotifsubj": "Melding om ny brukar for $1",
-    "newusernotif-desc": "Ein e-post blir sendt når nye brukarkontoar blir oppretta",
-    "newusernotifbody": "Hei, $1. \n\nEin ny brukarkonto, $2, blei oppretta på $3 $4."
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"newusernotifsubj": "Melding om ny brukar for $1",
+	"newusernotif-desc": "Ein e-post blir sendt når nye brukarkontoar blir oppretta",
+	"newusernotifbody": "Hei, $1. \n\nEin ny brukarkonto, $2, blei oppretta på $3 $4."
 }

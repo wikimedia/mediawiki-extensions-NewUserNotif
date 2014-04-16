@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liangent",
-            "Mark85296341"
-        ]
-    },
-    "newusernotifsubj": "$1 的新用戶通知",
-    "newusernotif-desc": "當用戶建立時，發送郵件確認電子郵件地址",
-    "newusernotifbody": "你好 $1，\n\n一個新的用戶帳號 $2，已經在 $4 於 $3 建立。"
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Mark85296341"
+		]
+	},
+	"newusernotifsubj": "$1 的新用戶通知",
+	"newusernotif-desc": "當用戶建立時，發送郵件確認電子郵件地址",
+	"newusernotifbody": "你好 $1，\n\n一個新的用戶帳號 $2，已經在 $4 於 $3 建立。"
 }

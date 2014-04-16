@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "SPQRobin",
-            "Siebrand"
-        ]
-    },
-    "newusernotifsubj": "Melding van een nieuwe gebruiker op $1",
-    "newusernotif-desc": "Stuurt een e-mail als nieuwe gebruikers worden aangemaakt",
-    "newusernotifbody": "Hallo $1.\n\nEr is een nieuwe gebruiker $2 aangemaakt op $3 op $5 om $6."
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"newusernotifsubj": "Melding van een nieuwe gebruiker op $1",
+	"newusernotif-desc": "Stuurt een e-mail als nieuwe gebruikers worden aangemaakt",
+	"newusernotifbody": "Hallo $1.\n\nEr is een nieuwe gebruiker $2 aangemaakt op $3 op $5 om $6."
 }

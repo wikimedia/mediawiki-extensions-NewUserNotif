@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ghaly",
-            "Meno25"
-        ]
-    },
-    "newusernotifsubj": "إخطار يوزر جديد ل$1",
-    "newusernotif-desc": "يبعت إيميل لما يتم إنشاء حسابات يوزرز",
-    "newusernotifbody": "اهلا و سهلا يا $1،\n\nحساب يوزر  جديد، $2، إتفتح على $3 فى $4."
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25"
+		]
+	},
+	"newusernotifsubj": "إخطار يوزر جديد ل$1",
+	"newusernotif-desc": "يبعت إيميل لما يتم إنشاء حسابات يوزرز",
+	"newusernotifbody": "اهلا و سهلا يا $1،\n\nحساب يوزر  جديد، $2، إتفتح على $3 فى $4."
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Irwangatot"
-        ]
-    },
-    "newusernotifsubj": "'''Anyar''' ,béja pamaké pikeun $1",
-    "newusernotif-desc": "Kirim béja ka surélék sabot pamaké anyar dijieun",
-    "newusernotifbody": "Pikeun $1,\n\nAya pamaké anyar, $2, geus dijieun dina $3 , $4"
+	"@metadata": {
+		"authors": [
+			"Irwangatot"
+		]
+	},
+	"newusernotifsubj": "'''Anyar''' ,béja pamaké pikeun $1",
+	"newusernotif-desc": "Kirim béja ka surélék sabot pamaké anyar dijieun",
+	"newusernotifbody": "Pikeun $1,\n\nAya pamaké anyar, $2, geus dijieun dina $3 , $4"
 }

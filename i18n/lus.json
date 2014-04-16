@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "RMizo"
-        ]
-    },
-    "newusernotifbody": "E khai ṭhian duh tak  $1,\n\nHmangtu siangchan thar, $2,  $3 phêkah  $4 khan siam a ni tâ. Kan lawm takzet a che. Kan ram leh hnam tana i hna thawh a thlàwn lo vang."
+	"@metadata": {
+		"authors": [
+			"RMizo"
+		]
+	},
+	"newusernotifbody": "E khai ṭhian duh tak  $1,\n\nHmangtu siangchan thar, $2,  $3 phêkah  $4 khan siam a ni tâ. Kan lawm takzet a che. Kan ram leh hnam tana i hna thawh a thlàwn lo vang."
 }

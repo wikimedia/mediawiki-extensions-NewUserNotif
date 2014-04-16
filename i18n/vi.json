@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Minh Nguyen",
-            "Vinhtantran"
-        ]
-    },
-    "newusernotifsubj": "Thông báo thành viên mới cho $1",
-    "newusernotif-desc": "Gửi thông báo bằng thư điện tử khi có tài khoản thành viên được tạo",
-    "newusernotifbody": "Xin chào $1,\n\nMột tài khoản thành viên mới, $2, đã được tạo ra trên $3 lúc $4."
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"newusernotifsubj": "Thông báo thành viên mới cho $1",
+	"newusernotif-desc": "Gửi thông báo bằng thư điện tử khi có tài khoản thành viên được tạo",
+	"newusernotifbody": "Xin chào $1,\n\nMột tài khoản thành viên mới, $2, đã được tạo ra trên $3 lúc $4."
 }

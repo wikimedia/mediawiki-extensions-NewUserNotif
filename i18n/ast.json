@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "newusernotifsubj": "Avisu de nuevu usuariu pa $1",
-    "newusernotif-desc": "Unvia un avisu per corréu electrónicu cuando se creen cuentes d'usuariu",
-    "newusernotifbody": "Hola $1:\n\nSe creó una nueva cuenta d'usuariu, $2, en $3 el $5 a les $6."
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"newusernotifsubj": "Avisu de nuevu usuariu pa $1",
+	"newusernotif-desc": "Unvia un avisu per corréu electrónicu cuando se creen cuentes d'usuariu",
+	"newusernotifbody": "Hola $1:\n\nSe creó una nueva cuenta d'usuariu, $2, en $3 el $5 a les $6."
 }

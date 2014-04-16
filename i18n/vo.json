@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Smeira"
-        ]
-    },
-    "newusernotifsubj": "Nunod gebaan nulik demü $1",
-    "newusernotif-desc": "Sedon nunodi leäktronik ven gebanakals pajafons",
-    "newusernotifbody": "Glidis, o $1!\n\nGebanakal nulik: $2, pejafon su $3 tü $4."
+	"@metadata": {
+		"authors": [
+			"Smeira"
+		]
+	},
+	"newusernotifsubj": "Nunod gebaan nulik demü $1",
+	"newusernotif-desc": "Sedon nunodi leäktronik ven gebanakals pajafons",
+	"newusernotifbody": "Glidis, o $1!\n\nGebanakal nulik: $2, pejafon su $3 tü $4."
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Darth Kule"
-        ]
-    },
-    "newusernotifsubj": "Notifica nuovo utente per $1",
-    "newusernotif-desc": "Invia una e-mail di notifica quando vengono creati nuovi account",
-    "newusernotifbody": "Ciao $1,\n\nUn nuovo account, $2, è stato creato su $3 il $4."
+	"@metadata": {
+		"authors": [
+			"Darth Kule"
+		]
+	},
+	"newusernotifsubj": "Notifica nuovo utente per $1",
+	"newusernotif-desc": "Invia una e-mail di notifica quando vengono creati nuovi account",
+	"newusernotifbody": "Ciao $1,\n\nUn nuovo account, $2, è stato creato su $3 il $4."
 }

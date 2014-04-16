@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "newusernotifsubj": "Nohreesch övver Ding neu Aanmeldung op $1",
-    "newusernotif-desc": "Scheck en <i lang=\"en\">e-mail</i> eruß, wann en neu Aanmeldung för ene neue Metmaacher kütt.",
-    "newusernotifbody": "Jooden Daach $1,\n\nEne neue Metmaacher mem Name \"$2\"\nes aam $5 öm $6 Uhr en de $3 neu aanjemeldt woode."
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"newusernotifsubj": "Nohreesch övver Ding neu Aanmeldung op $1",
+	"newusernotif-desc": "Scheck en <i lang=\"en\">e-mail</i> eruß, wann en neu Aanmeldung för ene neue Metmaacher kütt.",
+	"newusernotifbody": "Jooden Daach $1,\n\nEne neue Metmaacher mem Name \"$2\"\nes aam $5 öm $6 Uhr en de $3 neu aanjemeldt woode."
 }

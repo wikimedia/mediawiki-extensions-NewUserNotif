@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Avjoska",
-            "Pikne"
-        ]
-    },
-    "newusernotifbody": "Tere, $1!\n\nVõrgukohas $3 loodi uus kasutajakonto $2.\n\nKonto loomise aeg: $4"
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"newusernotifbody": "Tere, $1!\n\nVõrgukohas $3 loodi uus kasutajakonto $2.\n\nKonto loomise aeg: $4"
 }

@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Les Meloures",
-            "Robby"
-        ]
-    },
-    "newusernotifsubj": "Informatioun iwwer en neie Benotzer op $1",
-    "newusernotif-desc": "Schéckt eng Informatioun per e-Mail wann e neie Benotzerkont opgemaach gëtt",
-    "newusernotifbody": "Bonjour $1,\n\nEn neie Benotzerkont, $2, gouf op $3 de(n) $4 opgemaach."
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"newusernotifsubj": "Informatioun iwwer en neie Benotzer op $1",
+	"newusernotif-desc": "Schéckt eng Informatioun per e-Mail wann e neie Benotzerkont opgemaach gëtt",
+	"newusernotifbody": "Bonjour $1,\n\nEn neie Benotzerkont, $2, gouf op $3 de(n) $4 opgemaach."
 }

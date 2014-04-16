@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "AnakngAraw"
-        ]
-    },
-    "newusernotifsubj": "Pabatid na pambagong tagagamit para kay $1",
-    "newusernotif-desc": "Nagpapadala ng isang pabatid na pang-e-liham kapag nalikha ang bagong mga kuwenta ng tagagamit",
-    "newusernotifbody": "Kumusta ka $1,\n\nIsang bagong kuwenta/akawnt, $2, ang nalikha na sa $3 noong $4."
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"newusernotifsubj": "Pabatid na pambagong tagagamit para kay $1",
+	"newusernotif-desc": "Nagpapadala ng isang pabatid na pang-e-liham kapag nalikha ang bagong mga kuwenta ng tagagamit",
+	"newusernotifbody": "Kumusta ka $1,\n\nIsang bagong kuwenta/akawnt, $2, ang nalikha na sa $3 noong $4."
 }

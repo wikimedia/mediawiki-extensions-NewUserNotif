@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dani",
-            "Tgr"
-        ]
-    },
-    "newusernotifsubj": "Értesítés új $1 felhasználóról",
-    "newusernotif-desc": "E-mail üzeneteket küld, ha új felhasználói fiókok készülnek",
-    "newusernotifbody": "Szia $1,\n\negy új felhasználói fiókot készítettek $2 névvel a(z) $3 wikin, $4-kor."
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Tgr"
+		]
+	},
+	"newusernotifsubj": "Értesítés új $1 felhasználóról",
+	"newusernotif-desc": "E-mail üzeneteket küld, ha új felhasználói fiókok készülnek",
+	"newusernotifbody": "Szia $1,\n\negy új felhasználói fiókot készítettek $2 névvel a(z) $3 wikin, $4-kor."
 }
