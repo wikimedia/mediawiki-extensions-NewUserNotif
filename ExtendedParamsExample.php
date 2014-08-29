@@ -67,7 +67,7 @@ function efNewUserNotifSubject ( $callobj , $subjectLine , $siteName , $recipien
 
 function efNewUserNotifBody ( $callobj , $messageBody , $siteName , $recipient , $user )
 {
-	global $wgContLang;
+	global $wgContLang, $wgRequest;
 	$messageBody = wfMsgForContent(
 				'newusernotifbody',
 				$recipient,										// $1 Recipient (of notification message) 
@@ -78,7 +78,7 @@ function efNewUserNotifBody ( $callobj , $messageBody , $siteName , $recipient ,
 				$wgContLang->time( wfTimestampNow() ),			// $6 Time Stamp
 				$user->getEmail(),			                    // $7 email
 				rawurlencode($siteName),						// $8 Site name encoded for email message link
-				wfGetIP(),										// $9 Submitter's IP Address
+				$wgRequest->getIP(),							// $9 Submitter's IP Address
 				rawurlencode($user->getName())					// $10 User Name encoded for email message link
 	);
 	return ( true );
