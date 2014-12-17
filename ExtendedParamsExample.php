@@ -46,11 +46,11 @@ function efNewUserNotifSetupExtension() {
 
 function efNewUserNotifSubject ( $callobj , $subjectLine , $siteName , $recipient , $user )
 {
-	$subjectLine = wfMsgForContent(
+	$subjectLine = wfMessage(
 				'newusernotifsubj',
 				$siteName,										// $1 Site Name
 				$user->getName()								// $2 User Name
-	);
+	)->inContentLanguage()->text();
 	return ( true );
 }
 
@@ -68,7 +68,7 @@ function efNewUserNotifSubject ( $callobj , $subjectLine , $siteName , $recipien
 function efNewUserNotifBody ( $callobj , $messageBody , $siteName , $recipient , $user )
 {
 	global $wgContLang, $wgRequest;
-	$messageBody = wfMsgForContent(
+	$messageBody = wfMessage(
 				'newusernotifbody',
 				$recipient,										// $1 Recipient (of notification message) 
 				$user->getName(),								// $2 User Name
@@ -80,6 +80,6 @@ function efNewUserNotifBody ( $callobj , $messageBody , $siteName , $recipient ,
 				rawurlencode($siteName),						// $8 Site name encoded for email message link
 				$wgRequest->getIP(),							// $9 Submitter's IP Address
 				rawurlencode($user->getName())					// $10 User Name encoded for email message link
-	);
+	)->inContentLanguage()->text();
 	return ( true );
 }
