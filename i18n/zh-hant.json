@@ -3,10 +3,11 @@
 		"authors": [
 			"Liangent",
 			"Mark85296341",
-			"LNDDYL"
+			"LNDDYL",
+			"Cwlin0416"
 		]
 	},
 	"newusernotifsubj": "$1 的新使用者通知",
-	"newusernotif-desc": "當使用者建立時，傳送郵件確認電子郵件位址",
+	"newusernotif-desc": "當使用者建立時，傳送郵件確認電子郵件地址",
 	"newusernotifbody": "你好 $1，\n\n一個新的用戶帳號 $2，已經在 $4 於 $3 建立。"
 }
