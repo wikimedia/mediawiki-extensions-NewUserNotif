@@ -4,10 +4,11 @@
 			"Purodha",
 			"Shirayuki",
 			"Siebrand",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
 	"newusernotifsubj": "This message contains the subject line for the email. Parameters:\n* $1 is replaced with the wiki site name.",
-	"newusernotif-desc": "{{desc|name=New User Notification|url=http://www.mediawiki.org/wiki/Extension:New_User_Email_Notification}}",
+	"newusernotif-desc": "{{desc|name=New User Notification|url=https://www.mediawiki.org/wiki/Extension:New_User_Email_Notification}}",
 	"newusernotifbody": "This file contains the body text for the email. Parameters:\n* $1 - replaced with the username of the recipient\n* $2 - replaced with the username of the new user account\n* $3 - replaced with the wiki site\n* $4 - replaced with the time and date of the account's creation\n* $5 - (Optional) replaced with the date of the account's creation\n* $6 - (Optional) replaced with the time of the account's creation"
 }
