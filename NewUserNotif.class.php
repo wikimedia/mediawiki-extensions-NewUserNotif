@@ -87,7 +87,7 @@ class NewUserNotifier {
 	private function makeSubject( $recipient, $user ) {
 		global $wgSitename;
 		$subjectLine = "";
-		wfRunHooks( 'NewUserNotifSubject', array( &$this, &$subjectLine, $wgSitename, $recipient, $user ) );
+		Hooks::run( 'NewUserNotifSubject', array( &$this, &$subjectLine, $wgSitename, $recipient, $user ) );
 		if (!strlen($subjectLine) )
 			return wfMessage( 'newusernotifsubj', $wgSitename )->inContentLanguage()->text();
 		return $subjectLine;
@@ -102,7 +102,7 @@ class NewUserNotifier {
 	private function makeMessage( $recipient, $user ) {
 		global $wgSitename, $wgContLang;
 		$messageBody = "";
-		wfRunHooks( 'NewUserNotifBody', array( &$this, &$messageBody, $wgSitename, $recipient, $user ) );
+		Hooks::run( 'NewUserNotifBody', array( &$this, &$messageBody, $wgSitename, $recipient, $user ) );
 		if (!strlen($messageBody) )
 			return wfMessage(
 				'newusernotifbody',
