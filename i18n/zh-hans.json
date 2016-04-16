@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Gaoxuewei",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"Liuxinyu970226"
 		]
 	},
 	"newusernotifsubj": "$1的新用户通知",
 	"newusernotif-desc": "当用户账户创建时发送电子邮件通知",
-	"newusernotifbody": "你好$1，\n\n一个新账户$2已于$4在$3创建。"
+	"newusernotifbody": "您好$1，\n\n一个新账户$2已于$4在$3创建。"
 }
