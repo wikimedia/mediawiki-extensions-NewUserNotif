@@ -4,7 +4,7 @@
 			"아라"
 		]
 	},
-	"newusernotifsubj": "$1 사용자에 대한 새 사용자 알림",
+	"newusernotifsubj": "$1님에 대한 새 사용자 알림",
 	"newusernotif-desc": "사용자 계정을 만들 때 이메일 알림 보내기",
 	"newusernotifbody": "$1 안녕하세요,\n\n$4에 $3에서 $2로 새 사용자 계정을 만들었습니다."
 }
