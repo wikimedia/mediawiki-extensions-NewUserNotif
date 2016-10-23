@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michaello"
+			"Michaello",
+			"Сербијана"
 		]
 	},
 	"newusernotifsubj": "Novi korisnik za $1",
-	"newusernotif-desc": "Šalje mejl obaveštenja kada se novi nalog napravi",
+	"newusernotif-desc": "Šalje obaveštenja putem imejla kada se novi nalog napravi",
 	"newusernotifbody": "Zdravo $1\nNovi korisnički nalog, $2, je napravljen na $3 u $4."
 }
