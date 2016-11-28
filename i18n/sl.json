@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"newusernotifsubj": "Novo obvestilo za {{GRAMMAR:dajalnik|$1}}",
+	"newusernotif-desc": "Pošlji e-pošto, ko so ustvarjeni uporabniški računi",
+	"newusernotifbody": "Živijo, $1.\n\nNov uporabniški račun, $2, je bil ustvarjen na {{GRAMMAR:mestnik|$3}} ob $4."
+}
