@@ -23,7 +23,6 @@ $wgExtensionCredits['other'][] = array(
 
 $dir = dirname(__FILE__) . '/';
 $wgMessagesDirs['NewUserNotif'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NewUserNotif'] = $dir . 'NewUserNotif.i18n.php';
 $wgAutoloadClasses['NewUserNotifier'] = $dir . 'NewUserNotif.class.php';
 $wgExtensionFunctions[] = 'efNewUserNotifSetup';
 
