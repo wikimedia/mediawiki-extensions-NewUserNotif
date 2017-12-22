@@ -87,7 +87,9 @@ class NewUserNotifier {
 	private function makeSubject( $recipient, $user ) {
 		global $wgSitename;
 		$subjectLine = "";
-		Hooks::run( 'NewUserNotifSubject', array( &$this, &$subjectLine, $wgSitename, $recipient, $user ) );
+		// Avoid PHP 7.1 warning of passing $this by reference
+		$userNotif = $this;
+		Hooks::run( 'NewUserNotifSubject', array( &$userNotif, &$subjectLine, $wgSitename, $recipient, $user ) );
 		if (!strlen($subjectLine) )
 			return wfMessage( 'newusernotifsubj', $wgSitename )->inContentLanguage()->text();
 		return $subjectLine;
@@ -102,7 +104,9 @@ class NewUserNotifier {
 	private function makeMessage( $recipient, $user ) {
 		global $wgSitename, $wgContLang;
 		$messageBody = "";
-		Hooks::run( 'NewUserNotifBody', array( &$this, &$messageBody, $wgSitename, $recipient, $user ) );
+		// Avoid PHP 7.1 warning of passing $this by reference
+		$userNotif = $this;
+		Hooks::run( 'NewUserNotifBody', array( &$userNotif, &$messageBody, $wgSitename, $recipient, $user ) );
 		if (!strlen($messageBody) )
 			return wfMessage(
 				'newusernotifbody',
