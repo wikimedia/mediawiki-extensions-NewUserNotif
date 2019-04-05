@@ -11,5 +11,5 @@ full text and terms of the license.
 
 * Added two hooks that allow for the customization of both messages and parameters passed to generate the messages
 * Added an example extension to the distribution, ExtendedParamsExample.php
-* Updated Documentation - http://www.mediawiki.org/w/index.php?title=Extension:New_User_Email_Notification
+* Updated Documentation - https://www.mediawiki.org/w/index.php?title=Extension:New_User_Email_Notification
 * Added RELEASE-NOTES to distribution

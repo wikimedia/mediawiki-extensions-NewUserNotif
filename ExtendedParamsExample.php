@@ -6,7 +6,7 @@
  * @author Jack D. Pond <jack.pond@psitex.com>
  * @ingroup Extensions
  * @copyright 2011 Jack D. pond
- * @url http://www.mediawiki.org/wiki/Manual:Extensions
+ * @url https://www.mediawiki.org/wiki/Manual:Extensions
  * @licence GNU General Public Licence 2.0 or later
  */
 
