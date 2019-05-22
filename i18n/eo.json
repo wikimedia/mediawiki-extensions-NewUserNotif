@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"newusernotifsubj": "Nova notigado de uzanto $1",
+	"newusernotif-desc": "Sendi retpoŝtan sciigon kiam uzantkonto kreiĝas",
 	"newusernotifbody": "Saluton $1,\n\nNova konto por uzanto, $2, estis kreita je $3 $4."
 }
