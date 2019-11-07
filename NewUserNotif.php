@@ -46,7 +46,7 @@ $wgNewUserNotifEmailTargets = array();
  */
 function efNewUserNotifSetup() {
 	global $wgHooks;
-	$wgHooks['AddNewAccount'][] = 'efNewUserNotif';
+	$wgHooks['LocalUserCreated'][] = 'efNewUserNotif';
 }
 
 /**
