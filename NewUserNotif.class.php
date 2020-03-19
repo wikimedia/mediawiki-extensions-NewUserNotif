@@ -13,10 +13,7 @@ class NewUserNotifier {
 	private $sender;
 	private $user;
 
-	/**
-	 * Constructor
-	 */
-	public function NewUserNotifier() {
+	public function __construct() {
 		global $wgNewUserNotifSender;
 		$this->sender = $wgNewUserNotifSender;
 	}
