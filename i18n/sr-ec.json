@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"BadDog",
 			"Rancher",
 			"Sasa Stefanovic",
 			"Михајло Анђелковић",
-			"Сербијана",
-			"BadDog"
+			"Сербијана"
 		]
 	},
 	"newusernotifsubj": "Нови корисник за $1",
