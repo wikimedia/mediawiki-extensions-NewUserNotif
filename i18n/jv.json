@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Meursault2004"
 		]
 	},
-	"newusernotifsubj": "Notifikasi panganggo anyar kanggo $1",
-	"newusernotif-desc": "Kirim notifikasi e-mail menawa rékening-rékening panganggo digawé",
-	"newusernotifbody": "Salam $1,\n\nSawijining rékening panganggo, $2, wis digawé ing $3 jam $4."
+	"newusernotifsubj": "Notifikasi naraguna anyar kanggo $1",
+	"newusernotif-desc": "Kirim notifikasi layang-èl menawa rékening-rékening naraguna digawé",
+	"newusernotifbody": "Salam $1,\n\nSawijining rékening naraguna, $2, wis digawé ing $3 jam $4."
 }
