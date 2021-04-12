@@ -1,60 +1,16 @@
 <?php
-if ( ! defined( 'MEDIAWIKI' ) )
-    die();
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'NewUserNotif' );
 
-/**
- * Extension to provide customisable email notification of new user creation
- *
- * @file
- * @author Rob Church <robchur@gmail.com>
- * @ingroup Extensions
- * @copyright © 2006 Rob Church
- * @license GNU General Public Licence 2.0 or later
- */
+	$wgMessagesDirs['NewUserNotif'] = __DIR__ . '/i18n';
 
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name'           => 'New User Email Notification',
-	'version'        => '1.6.0',
-	'author'         => 'Rob Church',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:New_User_Email_Notification',
-	'descriptionmsg' => 'newusernotif-desc',
-);
+	wfWarn(
+		'Deprecated PHP entry point used for the New User Email Notification extension. ' .
+		'Please use wfLoadExtension() instead, ' .
+		'see https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Extension_registration for more details.'
+	);
 
-$dir = dirname(__FILE__) . '/';
-$wgMessagesDirs['NewUserNotif'] = __DIR__ . '/i18n';
-$wgAutoloadClasses['NewUserNotifier'] = $dir . 'NewUserNotif.class.php';
-$wgExtensionFunctions[] = 'efNewUserNotifSetup';
-
-/**
- * Email address to use as the sender
- */
-$wgNewUserNotifSender = $wgPasswordSender;
-
-/**
- * Users who should receive notification mails
- */
-$wgNewUserNotifTargets[] = 1;
-
-/**
- * Additional email addresses to send mails to
- */
-$wgNewUserNotifEmailTargets = array();
-
-/**
- * Extension setup
- */
-function efNewUserNotifSetup() {
-	global $wgHooks;
-	$wgHooks['AddNewAccount'][] = 'efNewUserNotif';
-}
-
-/**
- * Hook account creation
- *
- * @param User $user User account that was created
- * @return bool
- */
-function efNewUserNotif( $user ) {
-	return NewUserNotifier::hook( $user );
+	return;
+} else {
+	die( 'This version of the New User Email Notification extension requires MediaWiki 1.35+' );
 }

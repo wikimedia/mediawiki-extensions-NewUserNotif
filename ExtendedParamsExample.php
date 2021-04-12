@@ -10,25 +10,31 @@
  * @licence GNU General Public Licence 2.0 or later
  */
 
-if (!defined('MEDIAWIKI')) die('Not an entry point.');
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'Not an entry point.' );
+}
 
 $wgExtensionFunctions[] = 'efNewUserNotifSetupExtension';
-$wgExtensionCredits['other'][] = array(
+
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'AdditionalNewUserNotifParams',
-	'author' => array( 'Jack D. Pond' ),
+	'author' => [ 'Jack D. Pond' ],
 	'version' => '1.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:NewUserNotif',
-);
+	'url' => 'https://www.mediawiki.org/wiki/Extension:New_User_Email_Notification',
+];
 
 /**
  * Set up hooks for Additional NewUserNotif Parameters
  *
-*/
+ * @return bool
+ */
 function efNewUserNotifSetupExtension() {
 	global $wgHooks;
+
 	$wgHooks['NewUserNotifSubject'][] =  'efNewUserNotifSubject';
 	$wgHooks['NewUserNotifBody'][] = 'efNewUserNotifBody';
+
 	return true;
 }
 
@@ -41,17 +47,16 @@ function efNewUserNotifSetupExtension() {
  * @param $siteName Site Name of the Wiki
  * @param $recipient Email/User Name of the Message Recipient.
  * @param $user User name of the added user
- * @return  true
+ * @return bool
  */
-
-function efNewUserNotifSubject ( $callobj , $subjectLine , $siteName , $recipient , $user )
-{
+function efNewUserNotifSubject( $callobj, $subjectLine, $siteName, $recipient, $user ) {
 	$subjectLine = wfMessage(
-				'newusernotifsubj',
-				$siteName,										// $1 Site Name
-				$user->getName()								// $2 User Name
+		'newusernotifsubj',
+		$siteName, // $1 Site Name
+		$user->getName() // $2 User Name
 	)->inContentLanguage()->text();
-	return ( true );
+
+	return true;
 }
 
 /**
@@ -62,24 +67,24 @@ function efNewUserNotifSubject ( $callobj , $subjectLine , $siteName , $recipien
  * @param $siteName Site Name of the Wiki
  * @param $recipient Email/User Name of the Message Recipient.
  * @param $user User name of the added user
- * @return  true
+ * @return bool
  */
-
-function efNewUserNotifBody ( $callobj , $messageBody , $siteName , $recipient , $user )
-{
+function efNewUserNotifBody( $callobj, $messageBody, $siteName, $recipient, $user ) {
 	global $wgContLang, $wgRequest;
+
 	$messageBody = wfMessage(
-				'newusernotifbody',
-				$recipient,										// $1 Recipient (of notification message) 
-				$user->getName(),								// $2 User Name
-				$siteName,										// $3 Site Name
-				$wgContLang->timeAndDate( wfTimestampNow() ),	// $4 Time and date stamp
-				$wgContLang->date( wfTimestampNow() ),			// $5 Date Stamp
-				$wgContLang->time( wfTimestampNow() ),			// $6 Time Stamp
-				$user->getEmail(),			                    // $7 email
-				rawurlencode($siteName),						// $8 Site name encoded for email message link
-				$wgRequest->getIP(),							// $9 Submitter's IP Address
-				rawurlencode($user->getName())					// $10 User Name encoded for email message link
+		'newusernotifbody',
+		$recipient, // $1 Recipient (of notification message)
+		$user->getName(), // $2 User Name
+		$siteName, // $3 Site Name
+		$wgContLang->timeAndDate( wfTimestampNow() ), // $4 Time and date stamp
+		$wgContLang->date( wfTimestampNow() ), // $5 Date Stamp
+		$wgContLang->time( wfTimestampNow() ), // $6 Time Stamp
+		$user->getEmail(), // $7 email
+		rawurlencode( $siteName ), // $8 Site name encoded for email message link
+		$wgRequest->getIP(), // $9 Submitter's IP Address
+		rawurlencode( $user->getName() ) // $10 User Name encoded for email message link
 	)->inContentLanguage()->text();
-	return ( true );
+
+	return true;
 }
