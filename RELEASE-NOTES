@@ -1,7 +1,7 @@
 NEW USER EMAIL NOTIFICATION EXTENSION
 
-	Version 1.5
-	© 2006-2007 Rob Church, maintained by jpond
+	Version 1.7
+	© 2006-2007 Rob Church
 
 This is free software licenced under the GNU General Public Licence. Please
 see http://www.gnu.org/copyleft/gpl.html for further details, including the
@@ -13,3 +13,9 @@ full text and terms of the license.
 * Added an example extension to the distribution, ExtendedParamsExample.php
 * Updated Documentation - https://www.mediawiki.org/w/index.php?title=Extension:New_User_Email_Notification
 * Added RELEASE-NOTES to distribution
+
+=== Summary of changes in 1.7.0 ===
+
+* Replace deprecated AddNewAccount hook with LocalUserCreated
+* Convert to ExtensionRegistry
+* Other minor formatting cleanup

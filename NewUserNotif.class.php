@@ -8,13 +8,18 @@
  * @author Rob Church <robchur@gmail.com>
  */
 
-class NewUserNotifier {
+use MediaWiki\MediaWikiServices;
 
+class NewUserNotifier {
+	/** @var string */
 	private $sender;
+
+	/** @var User */
 	private $user;
 
 	public function __construct() {
 		global $wgNewUserNotifSender;
+
 		$this->sender = $wgNewUserNotifSender;
 	}
 
@@ -34,7 +39,8 @@ class NewUserNotifier {
 	 */
 	private function sendExternalMails() {
 		global $wgNewUserNotifEmailTargets, $wgSitename;
-		foreach( $wgNewUserNotifEmailTargets as $target ) {
+
+		foreach ( $wgNewUserNotifEmailTargets as $target ) {
 			UserMailer::send(
 				new MailAddress( $target ),
 				new MailAddress( $this->sender ),
@@ -49,9 +55,11 @@ class NewUserNotifier {
 	 */
 	private function sendInternalMails() {
 		global $wgNewUserNotifTargets, $wgSitename;
-		foreach( $wgNewUserNotifTargets as $userSpec ) {
+
+		foreach ( $wgNewUserNotifTargets as $userSpec ) {
 			$user = $this->makeUser( $userSpec );
-			if( $user instanceof User && $user->isEmailConfirmed() ) {
+
+			if ( $user instanceof User && $user->isEmailConfirmed() ) {
 				$user->sendMail(
 					$this->makeSubject( $user->getName(), $this->user ),
 					$this->makeMessage( $user->getName(), $this->user ),
@@ -65,13 +73,16 @@ class NewUserNotifier {
 	 * Initialise a user from an identifier or a username
 	 *
 	 * @param mixed $spec User identifier or name
-	 * @return User
+	 * @return User|null
 	 */
 	private function makeUser( $spec ) {
 		$name = is_integer( $spec ) ? User::whoIs( $spec ) : $spec;
 		$user = User::newFromName( $name );
-		if( $user instanceof User && $user->getId() > 0 )
+
+		if ( $user instanceof User && $user->getId() > 0 ) {
 			return $user;
+		}
+
 		return null;
 	}
 
@@ -80,15 +91,21 @@ class NewUserNotifier {
 	 *
 	 * @param string $recipient Name of the recipient
 	 * @param User $user User that was created
+	 * @return string
 	 */
 	private function makeSubject( $recipient, $user ) {
 		global $wgSitename;
-		$subjectLine = "";
+
+		$subjectLine = '';
+
 		// Avoid PHP 7.1 warning of passing $this by reference
 		$userNotif = $this;
-		Hooks::run( 'NewUserNotifSubject', array( &$userNotif, &$subjectLine, $wgSitename, $recipient, $user ) );
-		if (!strlen($subjectLine) )
+		Hooks::run( 'NewUserNotifSubject', [ &$userNotif, &$subjectLine, $wgSitename, $recipient, $user ] );
+
+		if ( !strlen( $subjectLine ) ) {
 			return wfMessage( 'newusernotifsubj', $wgSitename )->inContentLanguage()->text();
+		}
+
 		return $subjectLine;
 	}
 
@@ -97,35 +114,51 @@ class NewUserNotifier {
 	 *
 	 * @param string $recipient Name of the recipient
 	 * @param User $user User that was created
+	 * @return string
 	 */
 	private function makeMessage( $recipient, $user ) {
-		global $wgSitename, $wgContLang;
-		$messageBody = "";
+		global $wgSitename;
+
+		$contentLanguage = MediaWikiServices::getInstance()->getContentLanguage();
+
+		$messageBody = '';
+
 		// Avoid PHP 7.1 warning of passing $this by reference
 		$userNotif = $this;
-		Hooks::run( 'NewUserNotifBody', array( &$userNotif, &$messageBody, $wgSitename, $recipient, $user ) );
-		if (!strlen($messageBody) )
+		Hooks::run( 'NewUserNotifBody', [ &$userNotif, &$messageBody, $wgSitename, $recipient, $user ] );
+
+		if ( !strlen( $messageBody ) ) {
 			return wfMessage(
 				'newusernotifbody',
 				$recipient,
 				$user->getName(),
 				$wgSitename,
-				$wgContLang->timeAndDate( wfTimestampNow() ),
-				$wgContLang->date( wfTimestampNow() ),
-				$wgContLang->time( wfTimestampNow() )
+				$contentLanguage->timeAndDate( wfTimestampNow() ),
+				$contentLanguage->date( wfTimestampNow() ),
+				$contentLanguage->time( wfTimestampNow() )
 			)->inContentLanguage()->text();
+		}
+
 		return $messageBody;
+	}
+
+	public static function onRegistration() {
+		global $wgNewUserNotifSender, $wgPasswordSender;
+
+		/**
+		 * Email address to use as the sender
+		 */
+		$wgNewUserNotifSender = $wgPasswordSender;
 	}
 
 	/**
 	 * Hook account creation
 	 *
 	 * @param User $user User that was created
-	 * @return bool
+	 * @param bool $autocreated Whether this was an auto-created account
 	 */
-	public static function hook( $user ) {
+	public static function onLocalUserCreated( $user, $autocreated ) {
 		$notifier = new self();
 		$notifier->execute( $user );
-		return true;
 	}
 }
