@@ -19,7 +19,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"NewUserNotifier": "NewUserNotif.class.php"
+		"NewUserNotifier": "src/NewUserNotifier.php"
 	},
 	"config": {
 		"NewUserNotifTargets": {

@@ -38,7 +38,7 @@ class NewUserNotifier {
 	 * Send email to external addresses
 	 */
 	private function sendExternalMails() {
-		global $wgNewUserNotifEmailTargets, $wgSitename;
+		global $wgNewUserNotifEmailTargets;
 
 		foreach ( $wgNewUserNotifEmailTargets as $target ) {
 			UserMailer::send(
@@ -54,7 +54,7 @@ class NewUserNotifier {
 	 * Send email to users
 	 */
 	private function sendInternalMails() {
-		global $wgNewUserNotifTargets, $wgSitename;
+		global $wgNewUserNotifTargets;
 
 		foreach ( $wgNewUserNotifTargets as $userSpec ) {
 			$user = $this->makeUser( $userSpec );
@@ -76,7 +76,7 @@ class NewUserNotifier {
 	 * @return User|null
 	 */
 	private function makeUser( $spec ) {
-		$name = is_integer( $spec ) ? User::whoIs( $spec ) : $spec;
+		$name = is_int( $spec ) ? User::whoIs( $spec ) : $spec;
 		$user = User::newFromName( $name );
 
 		if ( $user instanceof User && $user->getId() > 0 ) {
