@@ -3,10 +3,11 @@
 		"authors": [
 			"Gaoxuewei",
 			"Liuxinyu970226",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"Tranve"
 		]
 	},
 	"newusernotifsubj": "$1的新用户通知",
-	"newusernotif-desc": "当用户账户创建时发送电子邮件通知",
+	"newusernotif-desc": "当用户账号创建时发送电子邮件通知",
 	"newusernotifbody": "您好$1，\n\n一个新账户$2已于$4在$3创建。"
 }
