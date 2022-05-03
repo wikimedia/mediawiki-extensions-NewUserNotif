@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fluence"
+			"Fluence",
+			"Languaeditor"
 		]
 	},
-	"newusernotifbody": "Niltze $1,\n\nCē yancuīc tlatequitiltilīlli cuentah, $2, ōmochīuh īpan $3 īpan $4."
+	"newusernotifbody": "Piyalli $1,\n\nSe yankwik tekitiketl kwentah, $2, mochiwki $3 pan $4."
 }
