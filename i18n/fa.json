@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
-			"Mjbmr"
+			"Mjbmr",
+			"Beginneruser"
 		]
 	},
-	"newusernotifsubj": "اعلان کاربر جدید برای $1",
-	"newusernotif-desc": "فرستادن ایمیل اعلان هنگامی که حساب‌های کاربری ایجاد شده است",
+	"newusernotifsubj": "آگاه‌سازی کاربر جدید برای $1",
+	"newusernotif-desc": "فرستادن ایمیل آگاه‌سازی هنگامی که حساب‌های کاربری ایجاد شده است",
 	"newusernotifbody": "سلام $1،\n\nیک حساب کاربری جدید، $2، بر $3 در $4 ایجاد شده‌است."
 }
