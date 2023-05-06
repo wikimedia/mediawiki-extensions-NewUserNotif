@@ -100,7 +100,8 @@ class NewUserNotifier {
 
 		// Avoid PHP 7.1 warning of passing $this by reference
 		$userNotif = $this;
-		Hooks::run( 'NewUserNotifSubject', [ &$userNotif, &$subjectLine, $wgSitename, $recipient, $user ] );
+		MediaWikiServices::getInstance()->getHookContainer()
+			->run( 'NewUserNotifSubject', [ &$userNotif, &$subjectLine, $wgSitename, $recipient, $user ] );
 
 		if ( !strlen( $subjectLine ) ) {
 			return wfMessage( 'newusernotifsubj', $wgSitename )->inContentLanguage()->text();
@@ -125,7 +126,8 @@ class NewUserNotifier {
 
 		// Avoid PHP 7.1 warning of passing $this by reference
 		$userNotif = $this;
-		Hooks::run( 'NewUserNotifBody', [ &$userNotif, &$messageBody, $wgSitename, $recipient, $user ] );
+		MediaWikiServices::getInstance()->getHookContainer()
+			->run( 'NewUserNotifBody', [ &$userNotif, &$messageBody, $wgSitename, $recipient, $user ] );
 
 		if ( !strlen( $messageBody ) ) {
 			return wfMessage(
