@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"newusernotifsubj": "Naujo $1 naudotojo pranešimas",
+	"newusernotif-desc": "Siunčia el. pašto pranešimus, kai sukuriamos naudotojų paskyros",
+	"newusernotifbody": "Sveiki, $1,\n\n$4 sukurta nauja $3 naudotojo paskyra, $2."
+}
