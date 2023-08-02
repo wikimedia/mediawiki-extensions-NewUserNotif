@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"newusernotifsubj": "Obavještenje o novom korisniku na $1",
+	"newusernotif-desc": "Šalje obavještenje putem imejla pri pravljenju novog korisničkog računa",
+	"newusernotifbody": "Zdravo $1,\n\nNa $3 je napravljen novi korisnički račun s imenom $2 u $4."
+}
