@@ -3,10 +3,11 @@
 		"authors": [
 			"Armin1392",
 			"Beginneruser",
-			"Mjbmr"
+			"Mjbmr",
+			"Ebraminio"
 		]
 	},
 	"newusernotifsubj": "آگاه‌سازی کاربر جدید برای $1",
 	"newusernotif-desc": "فرستادن ایمیل آگاه‌سازی هنگامی که حساب‌های کاربری ایجاد شده است",
-	"newusernotifbody": "سلام $1،\n\nیک حساب کاربری جدید، $2، بر $3 در $4 ایجاد شده‌است."
+	"newusernotifbody": "سلام $1،\n\nیک حساب کاربری جدید، $2، بر $3 در $4 ایجاد شده است."
 }
