@@ -5,10 +5,11 @@
 			"Gaoxuewei",
 			"Liuxinyu970226",
 			"Tranve",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"LittlePaw365"
 		]
 	},
 	"newusernotifsubj": "$1的新用户通知",
 	"newusernotif-desc": "当用户账号创建时发送电子邮件通知",
-	"newusernotifbody": "您好$1，\n\n一个新账户$2已于$4在$3创建。"
+	"newusernotifbody": "您好，$1：\n\n新用户账号，$2，已于$4在$3创建。"
 }
