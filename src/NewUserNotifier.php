@@ -76,8 +76,10 @@ class NewUserNotifier {
 	 * @return User|null
 	 */
 	private function makeUser( $spec ) {
-		$name = is_int( $spec ) ? User::whoIs( $spec ) : $spec;
-		$user = User::newFromName( $name );
+		$userFactory = MediaWikiServices::getInstance()->getUserFactory();
+		$user = is_int( $spec )
+			? $userFactory->newFromId( $spec )
+			: $userFactory->newFromName( $spec );
 
 		if ( $user instanceof User && $user->getId() > 0 ) {
 			return $user;
