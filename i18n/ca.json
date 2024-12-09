@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vriullop"
+			"Vriullop",
+			"Paucabot"
 		]
 	},
 	"newusernotifsubj": "Notificació d'usuari nou per $1",
 	"newusernotif-desc": "Envia una notificació per correu electrònic quan es creen comptes d'usuari",
-	"newusernotifbody": "Hola $1,\n\nUn nou compte d'usuari, $2, ha estat creat a $3 a les $4."
+	"newusernotifbody": "Hola $1,\n\nS'ha creat un nou compte d'usuari, $2, a $3 a les $4."
 }
