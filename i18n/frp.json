@@ -5,6 +5,6 @@
 		]
 	},
 	"newusernotifsubj": "Notificacion a un novél usanciér por $1",
-	"newusernotif-desc": "Mande na notificacion per mèssageria èlèctronica quand los comptos utilisators sont fêts",
-	"newusernotifbody": "Bonjorn $1,\n\nun compto utilisator novél, $2, est étâ fêt dessus $3 lo $4."
+	"newusernotif-desc": "Mande na notificacion per mèssageria èlèctronica quand los comptios utilisator sont fêts",
+	"newusernotifbody": "Bonjorn $1,\n\nun comptio utilisator novél, $2, est étâ fêt dessus $3 lo $4."
 }
