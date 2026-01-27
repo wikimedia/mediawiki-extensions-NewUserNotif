@@ -3,10 +3,11 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Renessaince"
+			"Renessaince",
+			"Ucukor"
 		]
 	},
 	"newusernotifsubj": "Паведамленьне аб новым удзельніку для $1",
 	"newusernotif-desc": "Дасылае паведамленьне па электроннай пошце пры стварэньні новых рахункаў",
-	"newusernotifbody": "Вітаем, $1,\n\nНовы ўліковы запіс, $2, быў створаны $3 $4."
+	"newusernotifbody": "Вітаем, $1,\n\nНовы рахунак, $2, быў створаны $3 $4."
 }
