@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"newusernotifsubj": "د $1 لپاره د نوي کارن يادونه",
+	"newusernotif-desc": "کله چې کارن گڼونونه جوړ شي؛ نو د برېښليک خبرتا لېږي",
 	"newusernotifbody": "$1، سلامونه!\n\nد $2 په نوم يو نوی گڼون په $4 نېټه $3 کې جوړ شوی."
 }
